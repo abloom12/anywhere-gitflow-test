@@ -2,4 +2,8 @@ function addNumbers(a, b) {
   return a + b;
 }
 
-module.exports = { addNumbers };
+function multiplyNumbers(a, b) {
+  return a * b;
+}
+
+module.exports = { addNumbers, multiplyNumbers };
